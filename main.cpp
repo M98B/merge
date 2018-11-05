@@ -21,7 +21,6 @@ int main()
 	//cout << minVal(tab, max_n) << endl << maxVal(tab, max_n) << endl << srednia(tab, max_n) << endl ;
 	// for (int i = 0; i < max_n ; i ++){
 	// 	cout << tab[i] << "  ";
-	// 	if (i == max_n - 1) cout << endl;
 	// }
 	mergeSort(tab, 0, max_n-1);
 	// for (int i = 0; i < max_n; i++){
