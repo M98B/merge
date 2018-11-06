@@ -76,17 +76,17 @@ void merge(float tab[], int left, int middle, int right){
 	while (l_index <= middle && r_index <= right){
 		if (temp[l_index - left] <= temp[r_index - left])
 		{
-			tab[current] = temp[l_index- left];
+			tab[current] = temp[l_index - left];
 			l_index++;
 		} else {
-			tab[current] = temp[r_index- left];
+			tab[current] = temp[r_index - left];
 			r_index++;
 		}
 		current++;
 	}
 
 	while (l_index <= middle){
-		tab[current] = temp[l_index- left];
+		tab[current] = temp[l_index - left];
 		l_index++;
 		current++;
 	}
